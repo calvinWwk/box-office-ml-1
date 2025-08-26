@@ -1,0 +1,54 @@
+{
+  "created": "2025-08-26T14:40:20.693015",
+  "feature_names_in": [
+    "budget",
+    "id",
+    "popularity",
+    "runtime",
+    "vote_average",
+    "vote_count"
+  ],
+  "target": "revenue",
+  "n_rows": 4803,
+  "n_features": 6,
+  "train_test_split": {
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "feature_summary": {
+    "budget": {
+      "min": 0.0,
+      "max": 380000000.0,
+      "mean": 29045039.87528628
+    },
+    "id": {
+      "min": 5.0,
+      "max": 459488.0,
+      "mean": 57165.484280657925
+    },
+    "popularity": {
+      "min": 0.0,
+      "max": 875.581305,
+      "mean": 21.492300588174057
+    },
+    "runtime": {
+      "min": 0.0,
+      "max": 338.0,
+      "mean": 106.87585919600083
+    },
+    "vote_average": {
+      "min": 0.0,
+      "max": 10.0,
+      "mean": 6.092171559442016
+    },
+    "vote_count": {
+      "min": 0.0,
+      "max": 13752.0,
+      "mean": 690.2179887570269
+    }
+  },
+  "models": [
+    "linear",
+    "rf"
+  ]
+}
